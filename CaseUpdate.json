@@ -1,0 +1,17 @@
+{
+  "request" : {
+    "url" : "/services/apexrest/v1.0/Recon/Case/",
+    "method" : "PATCH",
+    "bodyPatterns" : [ {
+      "matches" : ".*"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "transformers": ["case-update-transformer"],
+    "headers" : 
+    {
+     "Content-Type" : "application/json"
+    }
+  }
+}

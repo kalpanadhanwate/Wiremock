@@ -1,0 +1,17 @@
+{
+  "request" : {
+    "url" : "/services/apexrest/v1.0/Recon/BulkCaseCreation/",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "matches" : ".*"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "transformers": ["bulk-case-creation-transformer"],
+    "headers" : 
+    {
+     "Content-Type" : "application/json"
+    }
+  }
+}

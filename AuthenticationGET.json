@@ -1,0 +1,16 @@
+{
+ "request":
+ {
+ "urlPattern": "/services/oauth2/token?.*",
+ "method": "GET"
+ },
+ "response":
+ {
+ "status": 200,
+ "headers":
+ {
+ "Content-Type" : "application/json"
+ },
+ "body": "{\"access_token\":\"00D0j0000008mIi!ARUAQIWooL5QDxwj1\",\"instance_url\":\"https:\/\/services-t-mobile--raptor.my.salesforce.com\",\"id\":\"https:\/\/test.salesforce.com\/id\/00D0j0000008mIiEAI\/0050j000001SXqpAAG\",\"token_type\":\"Bearer\",\"issued_at\":\"1554887715211\",\"signature\":\"+Y3wDtWaCgtAVeGT2nvSiMogPboHOAlux1LbzGTgEiQ=\"}"
+}
+}
