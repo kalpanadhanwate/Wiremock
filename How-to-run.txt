@@ -1,0 +1,18 @@
+1. Download the Zip.
+2. config folder should be in the root folder where jar is placed.
+3. under config folder there will be mappings and __files folder.
+4. Under mappings folder the json files should be there.
+
+5. Run the jar with below command:
+
+java -jar SalesforceSim.jar
+
+6. http://localhost:8080/__admin/ should show the mappings.
+
+
+Endpoints:
+
+1.Authentication     (GET)    - http://<ip>:8080/services/oauth2/token
+2.Bulk case creation (POST)   - http://<ip>:8080/services/apexrest/v1.0/Recon/BulkCaseCreation/
+3.Bulk case update   (PATCH)  - http://<ip>:8080/services/apexrest/v1.0/Recon/Case/
+
