@@ -1,4 +1,4 @@
-1. Download the Zip.
+1. Download the SalesforceSim jar.
 2. config folder should be in the root folder where jar is placed.
 3. under config folder there will be mappings and __files folder.
 4. Under mappings folder the json files should be there.
